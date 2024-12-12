@@ -33,7 +33,7 @@ const App = () => {
   
 
   return (
-    <div>
+    <div className="main">
       <h1>Todo App</h1>
       <AddTodo onAdd={handleAddTodo} />
       <TodoApp todos={todos} />
