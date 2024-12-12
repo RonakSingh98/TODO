@@ -16,11 +16,11 @@ const TodoItem = ({ todo}) => {
     }
   };
  return (
-    <div>
+    <div className="items">
      
           <h3>{todo.task}</h3>
           <p>{todo.description}</p>
-          <button id='x' onClick={handleDelete}>Delete</button>
+          <button className='x' onClick={handleDelete}>Delete</button>
           
     </div>
   );

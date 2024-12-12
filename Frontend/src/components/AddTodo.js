@@ -13,7 +13,7 @@ const AddTodo = ({ onAdd }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Title"
@@ -26,7 +26,7 @@ const AddTodo = ({ onAdd }) => {
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
-      <button type="submit">Add Todo</button>
+      <button className="x" type="submit">Add Todo</button>
     </form>
   );
 };
